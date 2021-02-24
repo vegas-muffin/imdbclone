@@ -1,0 +1,11 @@
+<svg width="100%" height="100%">
+    <polygon points="0,0 0,0 0,0 0,0 0,0" stroke="black" stroke-width="5">
+    
+    <animate attributeName="points" 
+    from="100,30 40,218 0,0 0,0 0,0" to="100,30 40,218 190,108 10,108 160,218" 
+    values="100,30 40,218 0,0 0,0 0,0; 100,30 40,218 190,108 0,0 0,0;100,30 40,218 190,108 10,108 0,0;100,30 40,218 190,108 10,108 160,218;100,30 40,218 190,108 10,108 160,218"
+     dur="10s"repeatCount="indefinite"></animate>
+     <animate attributeName="fill" from="red" to="black"  values="red;yellow;blue;yellow" dur="10s" repeatCount="indefinite">
+     </animate>
+</polygon>
+</svg>
